@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="256dp">
+    <TextView
+        android:id="@+id/tv_maten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8sdp"
+        android:text=" الحديث "
+        android:fontFamily="@font/amiri"
+        android:textColor="@color/dark_green"
+        android:textDirection="anyRtl"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mohammed.mosa.eg.sahihain">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.Sahihain"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.ArbaeenActivity"
+            android:label="الاربعين النووية"
+            android:parentActivityName=".activity.MainActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".service.FridayService"
+            android:enabled="true"
+            android:exported="false">
+        </service>
+
+        <activity
+            android:name=".activity.SahihainIntro"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="معلومات عنا"
+            android:parentActivityName=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.FakeHadithActivity"
+            android:label="احاديث  لا تصح"
+            android:parentActivityName=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.FavourtActivty"
+            android:label="المفضلة"
+            android:parentActivityName=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SearchActivity"
+            android:label="بحث عن حديث"
+            android:parentActivityName=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HadithOfDay"
+            android:label="حديث اليوم"
+            android:parentActivityName=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SahihaenActivity"
+            android:label="صحيح البخاري و مسلم"
+            android:parentActivityName=".activity.MainActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".broadcast.NotificationReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+TODO: install libery SQLAssestHelper: google it ""
+# done: 1- add search bar to find hadith
+# done: 2- add notification service
+# done: 3- add broadcast receiver to send notification on defend time // not soo good
+# done: 4- add hadith of today random choice from 1 --> 12831
+# done: 5- make good UI
+# done: 6- TAP or Normal --> not decided yet normal
+# done: 7- make good icon for app
+8- test it in android [#5, #6, 7, 8] , [9, 10, 11, 12, 13]
+# done: 9- good exit way
+10- add setting like [font size, font shape, night mode]
+# done: 11- share button --> for share app and current hadith
+# done: 12- add good inrto
+# done: 13- add fafaert section to data base
+# done: 14- add [whatsapp, telegram, facebook, twitter, Instagram] share
+# done: 15- in Instagram share app convert hadith to image
+# not usefull 16- add date (Hajery, Goragen)
+# semi done: 17- load more in recycalvoew
+# done: 18- add about us section
+# done: 19- add remove from favert button
+# done: 20- add wrong hadith secation
+# done: 21- add search bar in (20)
+22- split sahahin into moslem and bakery
+
+
+
+
+

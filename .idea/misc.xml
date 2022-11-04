@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_about_info.xml" value="0.1475" />
+        <entry key="app/src/main/res/drawable/ic_arbaeen_book.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/ic_autorenew.xml" value="0.167" />
+        <entry key="app/src/main/res/drawable/ic_book.xml" value="0.167" />
+        <entry key="app/src/main/res/drawable/ic_bookmark.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/ic_bookmarks.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_camera.xml" value="0.166" />
+        <entry key="app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_expand_less.xml" value="0.2035" />
+        <entry key="app/src/main/res/drawable/ic_expand_more.xml" value="0.2035" />
+        <entry key="app/src/main/res/drawable/ic_facebook.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_hadit_of_day.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_instagram.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_not.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_notification_icon.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_settings.xml" value="0.1475" />
+        <entry key="app/src/main/res/drawable/ic_share.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_star.xml" value="0.2035" />
+        <entry key="app/src/main/res/drawable/ic_star_holo.xml" value="0.1765" />
+        <entry key="app/src/main/res/drawable/ic_telegram.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_today.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_twitter.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable/ic_whatsapp.xml" value="0.2035" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.38762886597938145" />
+        <entry key="app/src/main/res/layout/activity_arbaeen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_favourt_activty.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_feke_hadith.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_hadith_of_day.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_hadithes.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_more_over.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_sahihain_intro.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.4101057579318449" />
+        <entry key="app/src/main/res/layout/coustom_menu_item.xml" value="0.3654390934844193" />
+        <entry key="app/src/main/res/layout/custum_actionbar_layout.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fake_hadith_layout.xml" value="0.4023136246786632" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.1606837606837607" />
+        <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/hadith_layout.xml" value="0.4169653524492234" />
+        <entry key="app/src/main/res/layout/menu_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/new_hadith_widiget.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/notification_coustom_layout.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/notification_item.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/settings_activity.xml" value="0.1606837606837607" />
+        <entry key="app/src/main/res/layout/test.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/testing.xml" value="0.3756243756243756" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.HadithOfDay">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/hadith_of_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_16sdp"
+        android:layout_margin="@dimen/_6sdp"
+        android:elevation="@dimen/_6sdp"
+        android:padding="@dimen/_4sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_6sdp">
+
+            <TextView
+                android:id="@+id/tv_maten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_8sdp"
+                android:text="الحديث"
+                android:fontFamily="@font/amiri"
+                android:textColor="@color/dark_green"
+                android:textDirection="anyRtl"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@color/divider"/>
+
+            <TextView
+                android:id="@+id/tv_rawi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_2sdp"
+                android:text="الراوي"
+                android:textColor="@color/black"
+                android:textDirection="anyRtl"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:id="@+id/tv_mohadth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_2sdp"
+                android:text="المحدث"
+                android:textColor="@color/black"
+                android:textDirection="anyRtl"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:id="@+id/tv_source"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_2sdp"
+                android:text="المصدر"
+                android:textColor="@color/black"
+                android:textDirection="anyRtl"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:id="@+id/tv_degree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_2sdp"
+                android:text="خلاصة حكم المحدث"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:id="@+id/tv_takhrej"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_2sdp"
+                android:text="التخريج"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:id="@+id/tv_sharh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="عرض شرح الحديث"
+                android:textColor="@color/secondary_text"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_14ssp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@color/divider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:onClick="sendFacebook"
+                    android:src="@drawable/ic_facebook" />
+
+                <ImageButton
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:onClick="sendTwitter"
+                    android:src="@drawable/ic_twitter" />
+
+                <ImageButton
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:onClick="sendWhatsapp"
+                    android:src="@drawable/ic_whatsapp" />
+
+
+                <ImageButton
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:onClick="sendTelegram"
+                    android:src="@drawable/ic_telegram" />
+
+                <ImageButton
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:scaleType="fitCenter"
+                    android:onClick="camera"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_camera" />
+
+                <ImageButton
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:onClick="genralShare"
+                    android:src="@drawable/ic_share" />
+
+                <ImageButton
+                    android:id="@+id/btn_fav"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:onClick="addToFavaert"
+                    android:src="@drawable/ic_star_holo" />
+                <LinearLayout
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+
+                    <ImageButton
+                        android:onClick="renew"
+                        android:layout_width="@dimen/_24sdp"
+                        android:layout_height="@dimen/_24sdp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_2sdp"
+                        android:background="@color/white"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_autorenew" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
