@@ -16,11 +16,11 @@ import java.util.ArrayList;
 
 public class DatabaseAccess {
 
+    public static final String HADITH_TABLE_ID = "id";
     public static final String HADITH_TABLE_SAHIHAIN = "sahihain"; // الصحيحين
     public static final String HADITH_TABLE_FAVOURITE = "favourite"; // المفضلة
     public static final String HADITH_TABLE_FAKE = "hadith_fake"; // الاحاديث المكذوبة
     public static final String HADITH_TABLE_ARBEEN = "arbaeen"; // الاربعين النووية
-    public static final String HADITH_TABLE_ID = "id";
     public static final String HADITH_TABLE_HADITH = "hadith";
     public static final String HADITH_TABLE_RAWI =  "rawi";
     public static final String HADITH_TABLE_DEGREE = "degree";
