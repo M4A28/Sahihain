@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="[app-logo.png](https://github.com/M4A28/Sahihain/blob/master/app/src/main/res/drawable/app_icon.png)" alt="App Logo" width="200" height="200" />
+  <img src="[app-logo.png]((https://github.com/M4A28/Sahihain/blob/master/app/src/main/res/drawable/app_icon.png?raw=true)" alt="App Logo" width="200" height="200" />
 </div>
 
 # 📚 About the App
