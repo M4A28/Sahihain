@@ -1,10 +1,6 @@
 # صحيح البخاري و مسلم | Hadiths Collection App
 
 
-<div align="center">
-  <img src="[app-logo.png]((https://github.com/M4A28/Sahihain/blob/master/app/src/main/res/drawable/app_icon.png?raw=true)" alt="App Logo" width="200" height="200" />
-</div>
-
 # 📚 About the App
 The Hadiths Collection App is a comprehensive application that brings together the Hadiths from three prominent Hadith collections: Sahih Bukhari, Sahih Muslim, and Al arbaen by Imam Nawawi.
 This app aims to provide users with easy access to authentic and verified Hadiths, enhancing their knowledge.
